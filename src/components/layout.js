@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
         <Header />
         <main>{children}</main>
         <Footer data={data.allContentfulLink.edges}>
-          Creating Websites in React. <a href="mailto:rodrigoka4@gmail.com">Email us</a> to ask anything. © 2020
+          Creating Websites in React. <a href="mailto:rodrigoka4@gmail.com">Email me</a>. © 2020
         </Footer>
     </>
   )

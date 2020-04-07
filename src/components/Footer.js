@@ -32,6 +32,18 @@ const Button = styled.button`
         box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
         transform: translateY(-3px);
     }
+
+    a {
+        color: #486791;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 5px 0;
+        transition: 1s;
+    }
+
+    a:hover {
+        color: black;
+    }
 `
 
 let LinkGroup = styled.div`
@@ -75,9 +87,9 @@ const Copyright = styled.div`
 const Footer = ({data, children}) =>(
     <FooterGroup>
         <Text>
-            Tweet "LiveTournaments website with React + Gatsby + GraphQL + Contentfull (to api) + Animations CSS"
+            Tweet "LiveTournaments website with React + Gatsby + GraphQL + Contentfull (to api) + Animations CSS by @roddykan"
         </Text>
-        <Button>Tweet</Button>
+        <Button><a href="https://twitter.com/roddykan">Tweet</a></Button>
         <LinkGroup>
             {data.map(link => (
                     <a href={link.node.url}>{link.node.title}</a>
