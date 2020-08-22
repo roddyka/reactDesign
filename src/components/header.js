@@ -60,7 +60,7 @@ handlePurchase = (token) => {
           amount={5000} 
           image=""
           token={this.handlePurchase}
-          stripeKey={'pk_test_eGsyUYgnChHqfErtf4G4kpbZ00MbN5g24c'} 
+          stripeKey={'KEY'} 
           >
             <button>Tickets</button>
           </StripeCheckout>
